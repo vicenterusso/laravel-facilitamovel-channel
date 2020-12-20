@@ -1,13 +1,13 @@
 {
-    "name": "laravel-notification-channels/:package_name",
-    "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "name": "vicenterusso/laravel-facilitamovel-channel",
+    "description": "Facilita Movel notification channel for Laravel",
+    "homepage": "https://github.com/vicenterusso/laravel-facilitamovel-channel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Vicente Russo Neto",
+            "email": "vicente.russo@gmail.com",
+            "homepage": "http://www.vrusso.com.br",
             "role": "Developer"
         }
     ],
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\FacilitaMovel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\FacilitaMovel\\Test\\": "tests"
         }
     },
     "scripts": {
