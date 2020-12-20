@@ -1,4 +1,4 @@
-# A Boilerplate repo for contributions
+# Laravel Facilita Movel Notification Channel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vicenterusso/laravel-facilitamovel-channel.svg?style=flat-square)](https://packagist.org/packages/vicenterusso/laravel-facilitamovel-channel)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
