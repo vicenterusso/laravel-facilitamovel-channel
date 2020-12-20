@@ -48,22 +48,17 @@ class FacilitaMovel
 
         try {
 
-            $client = new HttpClient();
-
-            $api_url = 'http://api.facilitamovel.com.br/api/simpleSend.ft?user='.$login.'&password='.$password;
+            $api_url = '/api/simpleSend.ft?user='.$this->login.'&password='.$this->password;
             $destinatario = '&destinatario='.$to;
             $msg = '&msg='.urlencode($params['msg']);
             $url = $api_url.$destinatario.$msg;
-            $response = $client->get($url);
-
-           dump($response);
-           dump($response->getBody());
+            $response = $this->httpClient()->get($url);
 
             return $response;
         } catch (ClientException $exception) {
             throw CouldNotSendNotification::serviceRespondedWithAnError($exception);
         } catch (\Exception $exception) {
-            throw CouldNotSendNotification::couldNotCommunicateWithZenvia($exception->getMessage());
+            throw new \Exception($exception->getMessage());
         }
     }
 
