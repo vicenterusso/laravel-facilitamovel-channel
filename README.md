@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vicenterusso/laravel-facilitamovel-channel.svg?style=flat-square)](https://packagist.org/packages/vicenterusso/laravel-facilitamovel-channel)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-This package makes it easy to send notifications using [FacilitaMovel](link to service) with Laravel 5.5+, 6.x, 7.x and 8.x
+This package makes it easy to send notifications using [FacilitaMovel](https://www.facilitamovel.com.br/) with Laravel 5.5+, 6.x, 7.x and 8.x
 
 Facilita Movel channel notification for Laravel. Simple send support only
 
